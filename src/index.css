@@ -1,0 +1,84 @@
+@layer components {
+  /* Button Styles */
+  .button {
+    padding: 0.5rem 1rem;
+    border-radius: 0.375rem;
+    font-weight: 500;
+    transition: background-color 0.2s, color 0.2s;
+    background-color: var(--button-bg);
+    color: var(--button-text);
+  }
+
+  .button:hover {
+    filter: brightness(1.1);
+  }
+
+  .button.primary {
+    background-color: var(--button-bg);
+    color: var(--button-text);
+  }
+
+  .button.secondary {
+    background-color: var(--tag-bg);
+    color: var(--tag-text);
+  }
+
+  .button.secondary:hover {
+    filter: brightness(1.2);
+  }
+
+  /* Tag Styles */
+  .tag {
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    background-color: var(--tag-bg);
+    color: var(--tag-text);
+    font-size: 0.875rem;
+    font-weight: 500;
+  }
+
+  /* Card/Surface Styles */
+  .card {
+    background-color: var(--bg-surface-brand);
+    color: var(--text-primary);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  /* Text Utilities */
+  .text-primary {
+    color: var(--text-primary);
+  }
+
+  .text-secondary {
+    color: var(--text-secondary);
+  }
+
+  .text-error {
+    color: var(--text-error);
+  }
+
+  .text-success {
+    color: var(--text-success);
+  }
+
+  /* Background Utilities */
+  .bg-brand {
+    background-color: var(--bg-surface-brand);
+  }
+
+  .bg-info {
+    background-color: var(--bg-surface-info);
+  }
+
+  .bg-success {
+    background-color: var(--bg-surface-success);
+  }
+
+  .bg-error {
+    background-color: var(--bg-surface-error);
+  }
+}

@@ -1,0 +1,109 @@
+:root {
+  /* Primitives - Light Mode */
+  --purple-0: #f1f3fd;
+  --purple-1: #e5e2f8;
+  --purple-2: #cac3f1;
+  --purple-3: #b0a7ea;
+  --purple-4: #8c7ee0;
+  --purple-5: #705ee4;
+  --purple-6: #533fd1;
+  --purple-7: #4232a7;
+
+  --grey-0: #ffffff;
+  --grey-1: #f9fafc;
+  --grey-2: #ebecf0;
+  --grey-3: #e9eaee;
+  --grey-4: #a3a7b9;
+  --grey-5: #8088a3;
+
+  --blue-0: #f1fbfe;
+  --blue-1: #eff8fc;
+  --blue-2: #e6f5fb;
+  --blue-3: #ccebf6;
+  --blue-4: #5abde1;
+  --blue-5: #09739a;
+
+  --green-0: #f7fbf4;
+  --green-1: #f1f8ee;
+  --green-2: #e1f0d6;
+  --green-3: #d5e9c9;
+  --green-4: #a4cf8a;
+
+  --red-0: #fbf3ef;
+  --red-1: #f3dace;
+  --red-2: #e54d1f;
+
+  /* Semantic Tokens - Light Mode */
+  --bg-surface-brand: var(--purple-0);
+  --bg-surface-info: var(--blue-0);
+  --bg-surface-success: var(--green-0);
+  --bg-surface-error: var(--red-0);
+
+  --text-primary: var(--grey-7);
+  --text-secondary: var(--grey-6);
+  --text-disabled: var(--grey-5);
+  --text-brand: var(--purple-6);
+  --text-error: var(--red-2);
+  --text-success: var(--green-4);
+
+  --button-bg: var(--bg-surface-brand);
+  --button-text: var(--text-brand);
+  --tag-bg: var(--bg-surface-info);
+  --tag-text: var(--text-primary);
+}
+
+.dark {
+  /* Primitives - Dark Mode */
+  --purple-0: #1d1649;
+  --purple-1: #251c5e;
+  --purple-2: #32267d;
+  --purple-3: #3e2f9d;
+  --purple-4: #533fd1;
+  --purple-5: #705ee4;
+  --purple-6: #8c7ee0;
+  --purple-7: #b0a7ea;
+
+  --grey-0: #171b2b;
+  --grey-1: #1e2338;
+  --grey-2: #272d48;
+  --grey-3: #323a5d;
+  --grey-4: #374066;
+  --grey-5: #5f6685;
+
+  --blue-0: #1f424f;
+  --blue-1: #285565;
+  --blue-2: #367187;
+  --blue-3: #448ea9;
+  --blue-4: #5abde1;
+  --blue-5: #09739a;
+
+  --green-0: #324d22;
+  --green-1: #41652c;
+  --green-2: #548239;
+  --green-3: #6ca749;
+  --green-4: #a4cf8a;
+
+  --red-0: #c4360b;
+  --red-1: #e54d1f;
+
+  /* Semantic Tokens - Dark Mode */
+  --bg-surface-brand: var(--purple-0);
+  --bg-surface-info: var(--blue-0);
+  --bg-surface-success: var(--green-0);
+  --bg-surface-error: var(--red-0);
+
+  --text-primary: var(--grey-1);
+  --text-secondary: var(--grey-2);
+  --text-disabled: var(--grey-3);
+  --text-brand: var(--purple-6);
+  --text-error: var(--red-2);
+  --text-success: var(--green-4);
+
+  --button-bg: var(--bg-surface-brand);
+  --button-text: var(--text-brand);
+  --tag-bg: var(--bg-surface-info);
+  --tag-text: var(--text-primary);
+}
+:root, .dark {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
